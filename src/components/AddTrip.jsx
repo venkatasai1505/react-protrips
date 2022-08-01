@@ -31,7 +31,7 @@ export default class AddTrip extends Component {
           <option value="tropic">Tropic</option>
         </select>
         <Link
-          to="/react-protrips/display"
+          to="/display"
           className="submitAT"
           onClick={this.addNewTrip}
         >

@@ -11,13 +11,13 @@ export default class Header extends Component {
   render() {
     return (
       <div className="header">
-        <Link to="/react-protrips">
+        <Link to="/">
           <FontAwesomeIcon icon={faHome} style={{ fontSize: '35px' }} />
         </Link>
-        <Link to="/react-protrips/addTrip">
+        <Link to="/addTrip">
           <FontAwesomeIcon icon={faCalendarPlus} style={{ fontSize: '35px' }} />
         </Link>
-        <Link to="/react-protrips/display">
+        <Link to="/display">
           <FontAwesomeIcon icon={faCalendarAlt} style={{ fontSize: '35px' }} />
         </Link>
       </div>
