@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0a5fd6;
+  color: rgb(225, 216, 216);
+}
+
+.header {
+  height: 60vh;
+  width: 7vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  top: 27vh;
+}
+
+.header a {
+  color: white;
+}
+
+.workplace {
+  width: 102vw;
+  position: relative;
+  left: 16vh;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.total {
+  font-size: 80px;
+}
+
+.trips {
+  width: 85%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.trips span {
+  font-size: 45px;
+}
+
+.trips span svg {
+  font-size: 25px;
+}
+
+.home {
+  position: relative;
+  top: -25vh;
+}
+
+.trip {
+  display: flex;
+  flex-direction: column;
+  width: 37vw;
+  height: 68vh;
+  justify-content: space-evenly;
+}
+
+.headAT {
+  font-size: xxx-large;
+}
+
+.trip :is(:is(input[type='date'], input[type='text']), select) {
+  height: 8vh;
+  background: transparent;
+  border: 2px solid white;
+  padding: 0 2vh;
+  color: white;
+}
+
+.submitAT {
+  text-decoration: none;
+  border: 2px solid white;
+  color: white;
+  padding: 1.5vh;
+  width: 6vw;
+  align-self: center;
+  text-align: center;
+}
+
+.trip select option {
+  background: #222f3e;
+}
+
+table {
+  width: 40vw;
+  text-align: left;
+}
+
+table tr:nth-child(1) th {
+  border-bottom: 3px solid white;
+}
+
+.symbol {
+  font-size: 20px;
+}
+
+.filter {
+  height: 8vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 40%;
+}
+
+.filter span:hover {
+  cursor: pointer;
+}
+
+.headD {
+  font-size: 60px;
+  position: relative;
+  top: -7vh;
+}
